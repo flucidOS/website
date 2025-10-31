@@ -13,29 +13,18 @@ body {
   text-align: center;
 }
 
-.logo-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-}
-
-.logo {
-  width: 48px;  /* adjust as needed */
-  height: 48px;
-  object-fit: contain;
-}
-
-.brand {
-  font-size: 2.5rem;
-  font-weight: 600;
-  letter-spacing: -0.5px;
+.logo-only {
+  width: 240px; /* adjust to your liking */
+  height: auto;
+  margin-bottom: 1.2rem;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
 }
 
 .coming-soon {
-  font-weight: 400;
-  color: #555;
-  margin-top: 0.4rem;
+  font-weight: 500;
+  color: #444;
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
 }
 
 .subtitle {
