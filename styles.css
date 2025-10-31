@@ -1,3 +1,4 @@
+/* Reset & Base */
 body {
   margin: 0;
   height: 100vh;
@@ -9,35 +10,42 @@ body {
   color: #111;
 }
 
+/* Container setup */
 .container {
-  /* This property centers the logo and all other text within the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
+/* Logo styling */
 .logo-only {
-  width: 240px; 
+  width: 260px;   /* adjust if needed */
   height: auto;
   margin-bottom: 1.5rem;
-  /* Removed 'display: block' and 'justify-content: center' */
-  /* The logo is now centered via the container's text-align */
+  display: block;
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
 }
 
+/* Text styling */
 .coming-soon {
   font-weight: 500;
-  color: #444;
-  margin-top: 0.2rem;
-  font-size: 1.4rem;
+  color: #333;
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 .subtitle {
   font-size: 1rem;
-  color: #777;
-  margin-top: 0.3rem;
+  color: #666;
+  margin-top: 0.4rem;
 }
 
+/* Footer styling */
 .footer {
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #999;
+  text-align: center;
 }
