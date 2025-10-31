@@ -14,10 +14,11 @@ body {
 }
 
 .logo-only {
-  width: 240px; /* adjust to your liking */
+  width: 260px;   /* adjust if needed */
   height: auto;
-  margin-bottom: 1.2rem;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
+  margin-bottom: 1.5rem;
+  display: block;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
 }
 
 .coming-soon {
