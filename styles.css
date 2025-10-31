@@ -10,15 +10,16 @@ body {
 }
 
 .container {
+  /* This property centers the logo and all other text within the container */
   text-align: center;
 }
 
 .logo-only {
   width: 240px; 
-  justify-content: center;
   height: auto;
   margin-bottom: 1.5rem;
-  display: block;
+  /* Removed 'display: block' and 'justify-content: center' */
+  /* The logo is now centered via the container's text-align */
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
 }
 
